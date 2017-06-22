@@ -1,0 +1,31 @@
+#EXTINF:-1,[COLOR blue][I][B]-----------> SOMALI TV UPDATED ON 11/11/2016  <---------------[/B][/I][/COLOR]
+
+<item>
+<title>Somali National TV</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.sntvnews.com/</page>
+<agent>Mozilla/5.0 (Linux; U; ANDROID 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1</agent>
+</regex>
+<thumbnail>http://www.somiptv.com/uploads/9/1/6/1/91613844/sntv_7.png</thumbnail>
+</item>
+
+ <item>
+<title>Universal Somali TV</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.giniko.com/watch.php?id=400</page>
+</regex>
+<thumbnail>http://www.somiptv.com/uploads/9/1/6/1/91613844/universaltv_4.png</thumbnail>
+</item>
+
+<item>
+<title>SBC TV</title>
+<link>http://cdn01.iqbroadcast.tv:8081/g1/sbscvt1206/playlist.m3u8</link>
+<thumbnail>http://www.somiptv.com/uploads/9/1/6/1/91613844/sbc_19.png</thumbnail>
+<fanart></fanart>
+</item>
